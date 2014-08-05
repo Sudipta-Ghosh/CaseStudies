@@ -796,3 +796,513 @@
 02:03:04,357 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
 02:03:04,357 DEBUG  - Inside doRPNevaluation
 02:03:04,357 DEBUG  - Invalid Expression
+02:07:44,310 DEBUG  - inside testAddtionwithCorrectValue
+02:07:44,355  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@b60b93: display name [org.springframework.context.support.ClassPathXmlApplicationContext@b60b93]; startup date [Wed Aug 06 02:07:44 IST 2014]; root of context hierarchy
+02:07:44,408  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:07:44,412 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:07:44,437 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:07:44,439 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:07:44,439 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:07:44,480 DEBUG  - Loading bean definitions
+02:07:44,502 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:07:44,502  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@b60b93]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1697b67
+02:07:44,502 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@b60b93: display name [org.springframework.context.support.ClassPathXmlApplicationContext@b60b93]; startup date [Wed Aug 06 02:07:44 IST 2014]; root of context hierarchy
+02:07:44,512 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1124746]
+02:07:44,514 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@7e8c4d]
+02:07:44,515  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1697b67: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:07:44,515 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:07:44,516 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:07:44,534 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:07:44,536 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:07:44,536 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:07:44,536 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:07:44,536 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:07:44,543 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:07:44,543 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:07:44,543 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:07:44,543 DEBUG  - Inside doRPNevaluation
+02:07:44,544 DEBUG  - Inside doRPNevaluation tokenNum:::1.0
+02:07:44,544 DEBUG  - Inside doRPNevaluation stack:::[1.0]
+02:07:44,544 DEBUG  - Inside doRPNevaluation tokenNum:::2.0
+02:07:44,544 DEBUG  - Inside doRPNevaluation stack:::[2.0, 1.0]
+02:07:44,544 DEBUG  - Inside doRPNevaluation tokenNum:::3.0
+02:07:44,544 DEBUG  - Inside doRPNevaluation stack:::[3.0, 2.0, 1.0]
+02:07:44,544 DEBUG  - Inside doRPNevaluation stack:::[5.0, 1.0]
+02:07:44,545 DEBUG  - Inside doRPNevaluation stack:::[-4.0]
+02:07:44,545 DEBUG  - result:::-4.0
+02:07:44,546 DEBUG  - result===-4
+02:07:44,549 DEBUG  - inside testAddtionwithCorrectValue
+02:07:44,549  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7]; startup date [Wed Aug 06 02:07:44 IST 2014]; root of context hierarchy
+02:07:44,550  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:07:44,551 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:07:44,553 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:07:44,554 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:07:44,554 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:07:44,571 DEBUG  - Loading bean definitions
+02:07:44,572 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:07:44,572  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ecfe07
+02:07:44,572 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7]; startup date [Wed Aug 06 02:07:44 IST 2014]; root of context hierarchy
+02:07:44,573 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@9a9b65]
+02:07:44,573 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@502819]
+02:07:44,573  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ecfe07: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:07:44,573 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:07:44,573 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:07:44,573 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:07:44,573 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:07:44,573 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:07:44,573 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:07:44,573 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:07:44,574 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:07:44,574 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:07:44,574 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:07:44,574 DEBUG  - Inside doRPNevaluation
+02:07:44,574 DEBUG  - Inside doRPNevaluation tokenNum:::5.0
+02:07:44,574 DEBUG  - Inside doRPNevaluation stack:::[5.0]
+02:07:44,574 DEBUG  - Inside doRPNevaluation tokenNum:::1.0
+02:07:44,574 DEBUG  - Inside doRPNevaluation stack:::[1.0, 5.0]
+02:07:44,574 DEBUG  - Inside doRPNevaluation tokenNum:::2.0
+02:07:44,574 DEBUG  - Inside doRPNevaluation stack:::[2.0, 1.0, 5.0]
+02:07:44,574 DEBUG  - Inside doRPNevaluation stack:::[3.0, 5.0]
+02:07:44,574 DEBUG  - Inside doRPNevaluation tokenNum:::4.0
+02:07:44,574 DEBUG  - Inside doRPNevaluation stack:::[4.0, 3.0, 5.0]
+02:07:44,574 DEBUG  - Inside doRPNevaluation stack:::[12.0, 5.0]
+02:07:44,574 DEBUG  - Inside doRPNevaluation stack:::[17.0]
+02:07:44,574 DEBUG  - Inside doRPNevaluation tokenNum:::3.0
+02:07:44,574 DEBUG  - Inside doRPNevaluation stack:::[3.0, 17.0]
+02:07:44,574 DEBUG  - Inside doRPNevaluation stack:::[14.0]
+02:07:44,574 DEBUG  - result:::14.0
+02:07:44,576 DEBUG  - result===14
+02:07:44,577 DEBUG  - inside testAddtionwithCorrectValue
+02:07:44,577  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1712651: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1712651]; startup date [Wed Aug 06 02:07:44 IST 2014]; root of context hierarchy
+02:07:44,577  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:07:44,578 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:07:44,579 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:07:44,580 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:07:44,580 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:07:44,597 DEBUG  - Loading bean definitions
+02:07:44,597 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:07:44,598  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@1712651]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1d33a6b
+02:07:44,598 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@1712651: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1712651]; startup date [Wed Aug 06 02:07:44 IST 2014]; root of context hierarchy
+02:07:44,598 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@d1e233]
+02:07:44,598 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@15983b7]
+02:07:44,599  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1d33a6b: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:07:44,599 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:07:44,599 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:07:44,599 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:07:44,599 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:07:44,599 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:07:44,599 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:07:44,599 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:07:44,599 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:07:44,599 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:07:44,599 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:07:44,599 DEBUG  - Inside doRPNevaluation
+02:07:44,600 DEBUG  - Invalid Expression
+02:08:05,562 DEBUG  - inside testAddtionwithCorrectValue
+02:08:05,607  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@b60b93: display name [org.springframework.context.support.ClassPathXmlApplicationContext@b60b93]; startup date [Wed Aug 06 02:08:05 IST 2014]; root of context hierarchy
+02:08:05,664  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:08:05,667 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:08:05,693 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:08:05,695 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:08:05,695 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:08:05,737 DEBUG  - Loading bean definitions
+02:08:05,758 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:08:05,758  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@b60b93]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1697b67
+02:08:05,758 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@b60b93: display name [org.springframework.context.support.ClassPathXmlApplicationContext@b60b93]; startup date [Wed Aug 06 02:08:05 IST 2014]; root of context hierarchy
+02:08:05,768 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1124746]
+02:08:05,769 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@7e8c4d]
+02:08:05,770  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1697b67: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:08:05,771 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:08:05,771 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:08:05,790 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:08:05,791 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:08:05,792 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:08:05,792 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:08:05,792 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:08:05,799 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:08:05,799 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:08:05,799 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:08:05,800 DEBUG  - Inside doRPNevaluation
+02:08:05,800 DEBUG  - Inside doRPNevaluation tokenNum:::1.0
+02:08:05,800 DEBUG  - Inside doRPNevaluation stack:::[1.0]
+02:08:05,800 DEBUG  - Inside doRPNevaluation tokenNum:::2.0
+02:08:05,800 DEBUG  - Inside doRPNevaluation stack:::[2.0, 1.0]
+02:08:05,800 DEBUG  - Inside doRPNevaluation tokenNum:::3.0
+02:08:05,800 DEBUG  - Inside doRPNevaluation stack:::[3.0, 2.0, 1.0]
+02:08:05,801 DEBUG  - Inside doRPNevaluation stack:::[5.0, 1.0]
+02:08:05,801 DEBUG  - Inside doRPNevaluation stack:::[-4.0]
+02:08:05,801 DEBUG  - result:::-4.0
+02:08:05,803 DEBUG  - result===-4
+02:08:05,805 DEBUG  - inside testAddtionwithCorrectValue
+02:08:05,805  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7]; startup date [Wed Aug 06 02:08:05 IST 2014]; root of context hierarchy
+02:08:05,805  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:08:05,807 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:08:05,810 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:08:05,810 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:08:05,811 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:08:05,827 DEBUG  - Loading bean definitions
+02:08:05,828 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:08:05,828  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ecfe07
+02:08:05,828 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7]; startup date [Wed Aug 06 02:08:05 IST 2014]; root of context hierarchy
+02:08:05,830 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@502819]
+02:08:05,830 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@78aa80]
+02:08:05,830  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ecfe07: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:08:05,830 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:08:05,830 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:08:05,831 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:08:05,831 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:08:05,831 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:08:05,831 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:08:05,831 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:08:05,831 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:08:05,831 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:08:05,831 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:08:05,831 DEBUG  - Inside doRPNevaluation
+02:08:05,831 DEBUG  - Inside doRPNevaluation tokenNum:::5.0
+02:08:05,831 DEBUG  - Inside doRPNevaluation stack:::[5.0]
+02:08:05,831 DEBUG  - Inside doRPNevaluation tokenNum:::1.0
+02:08:05,831 DEBUG  - Inside doRPNevaluation stack:::[1.0, 5.0]
+02:08:05,831 DEBUG  - Inside doRPNevaluation tokenNum:::2.0
+02:08:05,831 DEBUG  - Inside doRPNevaluation stack:::[2.0, 1.0, 5.0]
+02:08:05,831 DEBUG  - Inside doRPNevaluation stack:::[3.0, 5.0]
+02:08:05,831 DEBUG  - Inside doRPNevaluation tokenNum:::4.0
+02:08:05,831 DEBUG  - Inside doRPNevaluation stack:::[4.0, 3.0, 5.0]
+02:08:05,831 DEBUG  - Inside doRPNevaluation stack:::[12.0, 5.0]
+02:08:05,831 DEBUG  - Inside doRPNevaluation stack:::[17.0]
+02:08:05,831 DEBUG  - Inside doRPNevaluation tokenNum:::3.0
+02:08:05,831 DEBUG  - Inside doRPNevaluation stack:::[3.0, 17.0]
+02:08:05,831 DEBUG  - Inside doRPNevaluation stack:::[14.0]
+02:08:05,831 DEBUG  - result:::14.0
+02:08:05,832 DEBUG  - result===14
+02:08:05,832 DEBUG  - inside testAddtionwithCorrectValue
+02:08:05,832  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1712651: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1712651]; startup date [Wed Aug 06 02:08:05 IST 2014]; root of context hierarchy
+02:08:05,833  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:08:05,834 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:08:05,835 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:08:05,835 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:08:05,836 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:08:05,850 DEBUG  - Loading bean definitions
+02:08:05,851 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:08:05,851  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@1712651]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1d33a6b
+02:08:05,851 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@1712651: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1712651]; startup date [Wed Aug 06 02:08:05 IST 2014]; root of context hierarchy
+02:08:05,851 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@d1e233]
+02:08:05,851 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@15983b7]
+02:08:05,851  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1d33a6b: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:08:05,851 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:08:05,851 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:08:05,851 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:08:05,851 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:08:05,852 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:08:05,852 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:08:05,852 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:08:05,852 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:08:05,852 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:08:05,852 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:08:05,852 DEBUG  - Inside doRPNevaluation
+02:08:05,852 DEBUG  - Invalid Expression
+02:09:14,649 DEBUG  - inside testAddtionwithCorrectValue
+02:09:14,693  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@b60b93: display name [org.springframework.context.support.ClassPathXmlApplicationContext@b60b93]; startup date [Wed Aug 06 02:09:14 IST 2014]; root of context hierarchy
+02:09:14,747  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:09:14,750 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:09:14,775 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:09:14,777 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:09:14,777 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:09:14,819 DEBUG  - Loading bean definitions
+02:09:14,842 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:09:14,842  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@b60b93]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1697b67
+02:09:14,842 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@b60b93: display name [org.springframework.context.support.ClassPathXmlApplicationContext@b60b93]; startup date [Wed Aug 06 02:09:14 IST 2014]; root of context hierarchy
+02:09:14,851 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1124746]
+02:09:14,853 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@7e8c4d]
+02:09:14,853  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1697b67: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:09:14,854 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:09:14,855 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:09:14,873 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:09:14,875 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:09:14,875 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:09:14,876 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:09:14,876 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:09:14,883 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:09:14,883 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:09:14,883 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:09:14,883 DEBUG  - Inside doRPNevaluation
+02:09:14,884 DEBUG  - Inside doRPNevaluation tokenNum:::1.0
+02:09:14,884 DEBUG  - Inside doRPNevaluation stack:::[1.0]
+02:09:14,884 DEBUG  - Inside doRPNevaluation tokenNum:::2.0
+02:09:14,884 DEBUG  - Inside doRPNevaluation stack:::[2.0, 1.0]
+02:09:14,884 DEBUG  - Inside doRPNevaluation tokenNum:::3.0
+02:09:14,884 DEBUG  - Inside doRPNevaluation stack:::[3.0, 2.0, 1.0]
+02:09:14,884 DEBUG  - Inside doRPNevaluation stack:::[5.0, 1.0]
+02:09:14,884 DEBUG  - Inside doRPNevaluation stack:::[-4.0]
+02:09:14,884 DEBUG  - result:::-4.0
+02:09:14,886 DEBUG  - result===-4
+02:09:14,888 DEBUG  - inside testAddtionwithCorrectValue
+02:09:14,888  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7]; startup date [Wed Aug 06 02:09:14 IST 2014]; root of context hierarchy
+02:09:14,889  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:09:14,890 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:09:14,893 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:09:14,893 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:09:14,894 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:09:14,911 DEBUG  - Loading bean definitions
+02:09:14,912 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:09:14,912  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ecfe07
+02:09:14,912 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1f4bcf7]; startup date [Wed Aug 06 02:09:14 IST 2014]; root of context hierarchy
+02:09:14,914 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@502819]
+02:09:14,914 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@78aa80]
+02:09:14,914  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ecfe07: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:09:14,914 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:09:14,914 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:09:14,915 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:09:14,915 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:09:14,915 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:09:14,915 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:09:14,915 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:09:14,915 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:09:14,915 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:09:14,915 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:09:14,915 DEBUG  - Inside doRPNevaluation
+02:09:14,915 DEBUG  - Inside doRPNevaluation tokenNum:::5.0
+02:09:14,915 DEBUG  - Inside doRPNevaluation stack:::[5.0]
+02:09:14,915 DEBUG  - Inside doRPNevaluation tokenNum:::1.0
+02:09:14,915 DEBUG  - Inside doRPNevaluation stack:::[1.0, 5.0]
+02:09:14,915 DEBUG  - Inside doRPNevaluation tokenNum:::2.0
+02:09:14,915 DEBUG  - Inside doRPNevaluation stack:::[2.0, 1.0, 5.0]
+02:09:14,915 DEBUG  - Inside doRPNevaluation stack:::[3.0, 5.0]
+02:09:14,915 DEBUG  - Inside doRPNevaluation tokenNum:::4.0
+02:09:14,916 DEBUG  - Inside doRPNevaluation stack:::[4.0, 3.0, 5.0]
+02:09:14,916 DEBUG  - Inside doRPNevaluation stack:::[12.0, 5.0]
+02:09:14,916 DEBUG  - Inside doRPNevaluation stack:::[17.0]
+02:09:14,916 DEBUG  - Inside doRPNevaluation tokenNum:::3.0
+02:09:14,916 DEBUG  - Inside doRPNevaluation stack:::[3.0, 17.0]
+02:09:14,916 DEBUG  - Inside doRPNevaluation stack:::[14.0]
+02:09:14,916 DEBUG  - result:::14.0
+02:09:14,916 DEBUG  - result===14
+02:09:14,917 DEBUG  - inside testAddtionwithCorrectValue
+02:09:14,917  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1712651: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1712651]; startup date [Wed Aug 06 02:09:14 IST 2014]; root of context hierarchy
+02:09:14,917  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:09:14,918 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:09:14,919 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:09:14,920 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:09:14,920 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:09:14,934 DEBUG  - Loading bean definitions
+02:09:14,934 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:09:14,934  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@1712651]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1d33a6b
+02:09:14,935 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@1712651: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1712651]; startup date [Wed Aug 06 02:09:14 IST 2014]; root of context hierarchy
+02:09:14,935 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@d1e233]
+02:09:14,935 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@15983b7]
+02:09:14,935  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1d33a6b: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:09:14,936 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:09:14,936 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:09:14,936 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:09:14,936 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:09:14,936 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:09:14,936 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:09:14,936 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:09:14,936 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:09:14,936 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:09:14,936 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:09:14,936 DEBUG  - Inside doRPNevaluation
+02:09:14,936 DEBUG  - Invalid Expression
+02:09:46,946 DEBUG  - inside testAddtionwithCorrectValue
+02:09:46,992  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81b1fb: display name [org.springframework.context.support.ClassPathXmlApplicationContext@81b1fb]; startup date [Wed Aug 06 02:09:46 IST 2014]; root of context hierarchy
+02:09:47,057  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:09:47,061 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:09:47,088 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:09:47,089 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:09:47,090 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:09:47,129 DEBUG  - Loading bean definitions
+02:09:47,148 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:09:47,148  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@81b1fb]: org.springframework.beans.factory.support.DefaultListableBeanFactory@19ba640
+02:09:47,149 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@81b1fb: display name [org.springframework.context.support.ClassPathXmlApplicationContext@81b1fb]; startup date [Wed Aug 06 02:09:46 IST 2014]; root of context hierarchy
+02:09:47,157 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1c7980c]
+02:09:47,159 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@a2220f]
+02:09:47,160  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@19ba640: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:09:47,160 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:09:47,161 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:09:47,180 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:09:47,182 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:09:47,182 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:09:47,182 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:09:47,182 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:09:47,189 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:09:47,189 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:09:47,189 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:09:47,189 DEBUG  - Inside doRPNevaluation
+02:09:47,190 DEBUG  - Inside doRPNevaluation tokenNum:::1.0
+02:09:47,190 DEBUG  - Inside doRPNevaluation stack:::[1.0]
+02:09:47,190 DEBUG  - Inside doRPNevaluation tokenNum:::2.0
+02:09:47,190 DEBUG  - Inside doRPNevaluation stack:::[2.0, 1.0]
+02:09:47,190 DEBUG  - Inside doRPNevaluation tokenNum:::3.0
+02:09:47,190 DEBUG  - Inside doRPNevaluation stack:::[3.0, 2.0, 1.0]
+02:09:47,190 DEBUG  - Inside doRPNevaluation stack:::[5.0, 1.0]
+02:09:47,190 DEBUG  - Inside doRPNevaluation stack:::[-4.0]
+02:09:47,190 DEBUG  - result:::-4.0
+02:09:47,192 DEBUG  - result===-4
+02:09:47,195 DEBUG  - inside testAddtionwithCorrectValue
+02:09:47,196  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5dc994: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5dc994]; startup date [Wed Aug 06 02:09:47 IST 2014]; root of context hierarchy
+02:09:47,196  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:09:47,197 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:09:47,199 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:09:47,200 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:09:47,200 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:09:47,220 DEBUG  - Loading bean definitions
+02:09:47,220 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:09:47,220  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5dc994]: org.springframework.beans.factory.support.DefaultListableBeanFactory@676e3f
+02:09:47,221 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@5dc994: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5dc994]; startup date [Wed Aug 06 02:09:47 IST 2014]; root of context hierarchy
+02:09:47,221 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@27982]
+02:09:47,221 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@778255]
+02:09:47,222  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@676e3f: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:09:47,222 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:09:47,222 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:09:47,222 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:09:47,222 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:09:47,222 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:09:47,222 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:09:47,222 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:09:47,222 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:09:47,222 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:09:47,222 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:09:47,222 DEBUG  - Inside doRPNevaluation
+02:09:47,223 DEBUG  - Inside doRPNevaluation tokenNum:::5.0
+02:09:47,223 DEBUG  - Inside doRPNevaluation stack:::[5.0]
+02:09:47,223 DEBUG  - Inside doRPNevaluation tokenNum:::1.0
+02:09:47,223 DEBUG  - Inside doRPNevaluation stack:::[1.0, 5.0]
+02:09:47,223 DEBUG  - Inside doRPNevaluation tokenNum:::2.0
+02:09:47,223 DEBUG  - Inside doRPNevaluation stack:::[2.0, 1.0, 5.0]
+02:09:47,223 DEBUG  - Inside doRPNevaluation stack:::[3.0, 5.0]
+02:09:47,223 DEBUG  - Inside doRPNevaluation tokenNum:::4.0
+02:09:47,223 DEBUG  - Inside doRPNevaluation stack:::[4.0, 3.0, 5.0]
+02:09:47,223 DEBUG  - Inside doRPNevaluation stack:::[12.0, 5.0]
+02:09:47,223 DEBUG  - Inside doRPNevaluation stack:::[17.0]
+02:09:47,223 DEBUG  - Inside doRPNevaluation tokenNum:::3.0
+02:09:47,223 DEBUG  - Inside doRPNevaluation stack:::[3.0, 17.0]
+02:09:47,223 DEBUG  - Inside doRPNevaluation stack:::[14.0]
+02:09:47,223 DEBUG  - result:::14.0
+02:09:47,223 DEBUG  - result===14
+02:09:47,225 DEBUG  - inside testAddtionwithCorrectValue
+02:09:47,225  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@b1cd0: display name [org.springframework.context.support.ClassPathXmlApplicationContext@b1cd0]; startup date [Wed Aug 06 02:09:47 IST 2014]; root of context hierarchy
+02:09:47,226  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:09:47,227 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:09:47,229 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:09:47,229 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:09:47,230 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:09:47,244 DEBUG  - Loading bean definitions
+02:09:47,245 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:09:47,245  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@b1cd0]: org.springframework.beans.factory.support.DefaultListableBeanFactory@d7b7d9
+02:09:47,245 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@b1cd0: display name [org.springframework.context.support.ClassPathXmlApplicationContext@b1cd0]; startup date [Wed Aug 06 02:09:47 IST 2014]; root of context hierarchy
+02:09:47,246 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@4a9a7d]
+02:09:47,246 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1e4a47e]
+02:09:47,246  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d7b7d9: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:09:47,246 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:09:47,246 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:09:47,246 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:09:47,246 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:09:47,246 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:09:47,246 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:09:47,246 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:09:47,247 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:09:47,247 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:09:47,247 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:09:47,247 DEBUG  - Inside doRPNevaluation
+02:09:47,247 DEBUG  - Invalid Expression
+02:18:10,266 DEBUG  - inside testAddtionwithCorrectValue
+02:18:10,362  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cbdb20: display name [org.springframework.context.support.ClassPathXmlApplicationContext@cbdb20]; startup date [Wed Aug 06 02:18:10 IST 2014]; root of context hierarchy
+02:18:10,472  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:18:10,478 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:18:10,526 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:18:10,529 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:18:10,530 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:18:10,627 DEBUG  - Loading bean definitions
+02:18:10,665 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:18:10,665  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@cbdb20]: org.springframework.beans.factory.support.DefaultListableBeanFactory@196f4b5
+02:18:10,665 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@cbdb20: display name [org.springframework.context.support.ClassPathXmlApplicationContext@cbdb20]; startup date [Wed Aug 06 02:18:10 IST 2014]; root of context hierarchy
+02:18:10,682 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@b32ed4]
+02:18:10,685 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1f4bcf7]
+02:18:10,687  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@196f4b5: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:18:10,688 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:18:10,689 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:18:10,724 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:18:10,727 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:18:10,727 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:18:10,728 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:18:10,728 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:18:10,740 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:18:10,740 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:18:10,740 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:18:10,740 DEBUG  - Inside doRPNevaluation
+02:18:10,742 DEBUG  - Inside doRPNevaluation tokenNum:::1.0
+02:18:10,742 DEBUG  - Inside doRPNevaluation stack:::[1.0]
+02:18:10,742 DEBUG  - Inside doRPNevaluation tokenNum:::2.0
+02:18:10,742 DEBUG  - Inside doRPNevaluation stack:::[2.0, 1.0]
+02:18:10,742 DEBUG  - Inside doRPNevaluation tokenNum:::3.0
+02:18:10,742 DEBUG  - Inside doRPNevaluation stack:::[3.0, 2.0, 1.0]
+02:18:10,743 DEBUG  - Inside doRPNevaluation stack:::[5.0, 1.0]
+02:18:10,743 DEBUG  - Inside doRPNevaluation stack:::[-4.0]
+02:18:10,743 DEBUG  - result:::-4.0
+02:18:10,747 DEBUG  - result===-4
+02:18:10,753 DEBUG  - inside testAddtionwithCorrectValue
+02:18:10,753  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1922f46: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1922f46]; startup date [Wed Aug 06 02:18:10 IST 2014]; root of context hierarchy
+02:18:10,754  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:18:10,756 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:18:10,759 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:18:10,760 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:18:10,761 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:18:10,792 DEBUG  - Loading bean definitions
+02:18:10,793 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:18:10,793  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@1922f46]: org.springframework.beans.factory.support.DefaultListableBeanFactory@ded0f0
+02:18:10,793 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@1922f46: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1922f46]; startup date [Wed Aug 06 02:18:10 IST 2014]; root of context hierarchy
+02:18:10,794 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@770d2e]
+02:18:10,794 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@27982]
+02:18:10,795  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@ded0f0: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:18:10,795 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:18:10,795 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:18:10,795 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:18:10,795 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:18:10,795 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:18:10,796 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:18:10,796 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:18:10,796 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:18:10,796 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:18:10,796 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:18:10,796 DEBUG  - Inside doRPNevaluation
+02:18:10,796 DEBUG  - Inside doRPNevaluation tokenNum:::5.0
+02:18:10,796 DEBUG  - Inside doRPNevaluation stack:::[5.0]
+02:18:10,796 DEBUG  - Inside doRPNevaluation tokenNum:::1.0
+02:18:10,797 DEBUG  - Inside doRPNevaluation stack:::[1.0, 5.0]
+02:18:10,797 DEBUG  - Inside doRPNevaluation tokenNum:::2.0
+02:18:10,797 DEBUG  - Inside doRPNevaluation stack:::[2.0, 1.0, 5.0]
+02:18:10,797 DEBUG  - Inside doRPNevaluation stack:::[3.0, 5.0]
+02:18:10,797 DEBUG  - Inside doRPNevaluation tokenNum:::4.0
+02:18:10,797 DEBUG  - Inside doRPNevaluation stack:::[4.0, 3.0, 5.0]
+02:18:10,797 DEBUG  - Inside doRPNevaluation stack:::[12.0, 5.0]
+02:18:10,797 DEBUG  - Inside doRPNevaluation stack:::[17.0]
+02:18:10,797 DEBUG  - Inside doRPNevaluation tokenNum:::3.0
+02:18:10,797 DEBUG  - Inside doRPNevaluation stack:::[3.0, 17.0]
+02:18:10,797 DEBUG  - Inside doRPNevaluation stack:::[14.0]
+02:18:10,797 DEBUG  - result:::14.0
+02:18:10,798 DEBUG  - result===14
+02:18:10,801 DEBUG  - inside testAddtionwithCorrectValue
+02:18:10,801  INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3a1834: display name [org.springframework.context.support.ClassPathXmlApplicationContext@3a1834]; startup date [Wed Aug 06 02:18:10 IST 2014]; root of context hierarchy
+02:18:10,802  INFO  - Loading XML bean definitions from class path resource [SpringBeans.xml]
+02:18:10,804 DEBUG  - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+02:18:10,806 DEBUG  - Loading schema mappings from [META-INF/spring.schemas]
+02:18:10,807 DEBUG  - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+02:18:10,808 DEBUG  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+02:18:10,830 DEBUG  - Loading bean definitions
+02:18:10,831 DEBUG  - Loaded 2 bean definitions from location pattern [SpringBeans.xml]
+02:18:10,831  INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@3a1834]: org.springframework.beans.factory.support.DefaultListableBeanFactory@d7b7d9
+02:18:10,831 DEBUG  - 2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@3a1834: display name [org.springframework.context.support.ClassPathXmlApplicationContext@3a1834]; startup date [Wed Aug 06 02:18:10 IST 2014]; root of context hierarchy
+02:18:10,832 DEBUG  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@4a9a7d]
+02:18:10,832 DEBUG  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1e4a47e]
+02:18:10,833  INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d7b7d9: defining beans [CalculationServiceConsumer,RPNEvaluator]; root of factory hierarchy
+02:18:10,833 DEBUG  - Creating shared instance of singleton bean 'CalculationServiceConsumer'
+02:18:10,833 DEBUG  - Creating instance of bean 'CalculationServiceConsumer'
+02:18:10,833 DEBUG  - Eagerly caching bean 'CalculationServiceConsumer' to allow for resolving potential circular references
+02:18:10,833 DEBUG  - Creating shared instance of singleton bean 'RPNEvaluator'
+02:18:10,833 DEBUG  - Creating instance of bean 'RPNEvaluator'
+02:18:10,833 DEBUG  - Eagerly caching bean 'RPNEvaluator' to allow for resolving potential circular references
+02:18:10,833 DEBUG  - Finished creating instance of bean 'RPNEvaluator'
+02:18:10,834 DEBUG  - Finished creating instance of bean 'CalculationServiceConsumer'
+02:18:10,834 DEBUG  - Returning cached instance of singleton bean 'RPNEvaluator'
+02:18:10,834 DEBUG  - Returning cached instance of singleton bean 'CalculationServiceConsumer'
+02:18:10,834 DEBUG  - Inside doRPNevaluation
+02:18:10,834 DEBUG  - Invalid Expression
