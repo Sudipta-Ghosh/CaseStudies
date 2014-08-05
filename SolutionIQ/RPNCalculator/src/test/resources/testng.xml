@@ -4,11 +4,11 @@
 	<test name="test1">
 		<groups>
 			<run>
-				<include name="asdasd" />
+				<include name="RPNEvaluationTest" />
 			</run>
 		</groups>
 		<classes>
-			<class name="RPNEvaluationUnitTester" />
+			<class name="com.solutioniq.calculator.unittest.testng.RPNEvaluationUnitTest" />
 		</classes>
 	</test>
 </suite>

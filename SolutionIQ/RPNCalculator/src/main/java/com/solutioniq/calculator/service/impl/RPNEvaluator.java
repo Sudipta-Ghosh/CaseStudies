@@ -2,14 +2,22 @@ package com.solutioniq.calculator.service.impl;
 
 import java.util.LinkedList;
 
+import com.solutioniq.calculator.core.exception.WrongExpressionException;
 import com.solutioniq.calculator.log.LoggerBean;
 import com.solutioniq.calculator.service.ICalculationService;
 import com.solutioniq.calculator.util.FactorialEvaluator;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class RPNEvaluator.
+ */
 public class RPNEvaluator implements  ICalculationService{
 
 	
-	public double doRPNevaluation(String expr) {
+	/* (non-Javadoc)
+	 * @see com.solutioniq.calculator.service.ICalculationService#doRPNevaluation(java.lang.String)
+	 */
+	public double doRPNevaluation(String expr) throws WrongExpressionException {
 		// TODO Auto-generated method stub
 		LoggerBean.logdebug("Inside doRPNevaluation");
 		LinkedList<Double> stack = new LinkedList<Double>();
@@ -52,7 +60,8 @@ public class RPNEvaluator implements  ICalculationService{
 			}
 			else{//just in case
 				LoggerBean.logdebug("Invalid Expression");
-				return 0.0;
+				throw new WrongExpressionException ("Invalid Expression");
+				
 			}
 			
 		}

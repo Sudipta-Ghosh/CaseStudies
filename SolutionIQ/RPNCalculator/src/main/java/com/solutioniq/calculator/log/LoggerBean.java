@@ -14,12 +14,18 @@ public class LoggerBean {
 	/**
 	 * Logdebug.
 	 *
-	 * @param strMessage the str message
+	 * @param strMessage log message to be printed in debug level
 	 */
 	public static void logdebug(String strMessage)
 	{
 		log.debug(strMessage);
 	}
+	
+	/**
+	 * Log warn.
+	 *
+	 * @param strMessage log message to be printed in debug level
+	 */
 	public static void logWarn(String strMessage)
 	{
 		log.warn(strMessage);

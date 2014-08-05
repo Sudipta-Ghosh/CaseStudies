@@ -1,12 +1,14 @@
 package com.solutioniq.calculator.service.core;
 
+import com.solutioniq.calculator.core.exception.WrongExpressionException;
 import com.solutioniq.calculator.service.ICalculationService;
+import com.solutioniq.calculator.util.OutputFormatter;
 
 // TODO: Auto-generated Javadoc
 /**
  * The Class CalculationService.
  */
-public class CalculationService <E extends java.lang.Number> {
+public class CalculationService {
 
 	/** The calculation service. */
 	ICalculationService calculationService;
@@ -14,18 +16,15 @@ public class CalculationService <E extends java.lang.Number> {
 	/**
 	 * Gets the calculationresult.
 	 *
-	 * @param rpnExpression the RPN expression
-	 * @return 
+	 * @param expression the expression
 	 * @return the evaluated Result
+	 * @throws WrongExpressionException the wrong expression exception
 	 */
-	public String getCalculationresult(String expression) {
+	public String getCalculationresult(String expression) throws WrongExpressionException {
 		// TODO Auto-generated method stub
 		double calculationResult=(double) calculationService.doRPNevaluation(expression);
-		 if(calculationResult == (int) calculationResult)
-		        return String.format("%d",(int)calculationResult);
-		    else
-		        return String.format("%s",calculationResult);
-		
+		String strCalculationresult=OutputFormatter.getFormattedOutput(calculationResult);
+		return strCalculationresult;
 	}
  
 	//DI via setter method

@@ -10,7 +10,7 @@ public class FactorialEvaluator {
  	 * Factorial.
  	 *
  	 * @param n the n
- 	 * @return the long
+ 	 * @return A long calculated result
  	 */
  	public static long factorial(long n) {
 	       int result = 1;

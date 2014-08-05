@@ -12,20 +12,56 @@ import com.solutioniq.calculator.log.LoggerBean;
  */
 public class RPNEvaluationUnitTest {
 	
-	  
+	/** The obj business delegate. */
+	BusinessDelegate objBusinessDelegate=new BusinessDelegate();
 
     /**
-     * Test evaluate rpn positive.
+     * Test evaluate RPN for correct result
+     *
+     * @throws Exception the exception
      */
-    @Test(groups = { "functest" })
-	   public void testEvaluateRPNPositive() {
+      @Test(groups = { "RPNEvaluationTest" })
+	   public void testEvaluateRPNPositive() throws Exception {
 		    LoggerBean.logdebug("inside testAddtionwithCorrectValue");
 		    String message = "1 2 3 + -";
-		    BusinessDelegate objBusinessDelegate=new BusinessDelegate();
+		    
 		    String result= objBusinessDelegate.doProcessing(message);
 			LoggerBean.logdebug("result==="+result);
-	        Assert.assertEquals(result, -4.0);
+	        assert result.equals("-4") : "Expected result::" + result;
+
 	   }
+      
+      /**
+       * Test evaluate RPN for wrong result
+       *
+       * @throws Exception the exception
+       */
+      @Test(groups = { "RPNEvaluationTest" })
+	   public void testEvaluateRPNNegative() throws Exception {
+		    LoggerBean.logdebug("inside testAddtionwithCorrectValue");
+		    String message = "1 2 3 + -";
+		    
+		    String result= objBusinessDelegate.doProcessing(message);
+			LoggerBean.logdebug("result==="+result);
+	        assert result.equals("4") : "Expected result::" + result;
+	   }
+      
+      /**
+       * Test evaluate RPN for invalid expression.
+       *
+       * @throws Exception the exception
+       */
+      @Test(groups = { "RPNEvaluationTest" })
+	   public void testEvaluateRPNWrongInputs() throws Exception {
+		    LoggerBean.logdebug("inside testAddtionwithCorrectValue");
+		    String message = "a b c + -";
+		    
+		    String result= objBusinessDelegate.doProcessing(message);
+			LoggerBean.logdebug("result==="+result);
+	        assert result.equals("4") : "Expected result::" + result;
+	   }
+      
+      
 	   
 	 
 

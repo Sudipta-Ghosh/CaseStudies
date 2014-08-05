@@ -6,6 +6,9 @@
   <name>RPNCalculator</name>
   <description>RPN Calculator</description>
   <url>http://maven.apache.org</url>
+  <properties>
+     <suiteXmlFile>testng.xml</suiteXmlFile>
+  </properties>
   <dependencies>
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -41,6 +44,13 @@
         		<configuration>
         		  <parallel>methods</parallel>
           		  <threadCount>4</threadCount>
+          		  <forkMode>always</forkMode>
+                  <systemPropertyVariables>
+                       <reporter.debug>false</reporter.debug>                      
+                  </systemPropertyVariables>
+                  <suiteXmlFiles>
+                       <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+                  </suiteXmlFiles>
         		</configuration>
             </plugin>
 		</plugins>

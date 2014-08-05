@@ -3,6 +3,7 @@ package com.solutioniq.calculator.unittest.console;
 import java.util.Scanner;
 
 import com.solutioniq.calculator.core.businessdelegate.BusinessDelegate;
+import com.solutioniq.calculator.core.exception.WrongExpressionException;
 
 // TODO: Auto-generated Javadoc
 /**
@@ -14,8 +15,9 @@ public class RPNEvalutionTester {
 	 * The main method.
 	 *
 	 * @param args the arguments
+	 * @throws WrongExpressionException Exception throws for Invalid RPN Expression
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) throws WrongExpressionException {
 		// TODO Auto-generated method stub
 		BusinessDelegate objBusinessDelegate=new BusinessDelegate();
 	    System.out.print("Input:");
@@ -23,7 +25,7 @@ public class RPNEvalutionTester {
 	    String rpninput = scanner.nextLine();	
 	    String rpnEvaluationResult= objBusinessDelegate.doProcessing(rpninput);
 		
-		System.out.println("rpnEvaluationResult:::"+rpnEvaluationResult);
+		System.out.println("Output:"+rpnEvaluationResult);
 	}
 
 }
