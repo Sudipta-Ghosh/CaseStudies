@@ -1,0 +1,12 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="CalculationServiceConsumer" class="com.solutioniq.calculator.service.core.CalculationService">
+		<property name="calculationService" ref="RPNEvaluator" />
+	</bean>
+ 
+	<bean id="RPNEvaluator" class="com.solutioniq.calculator.service.impl.RPNEvaluator" />
+
+</beans>
