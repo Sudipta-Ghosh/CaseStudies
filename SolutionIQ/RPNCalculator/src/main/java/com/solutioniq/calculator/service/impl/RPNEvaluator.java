@@ -25,6 +25,7 @@ public class RPNEvaluator implements  ICalculationService{
 			Double tokenNum = null;
 			try{
 				tokenNum = Double.parseDouble(token);
+				LoggerBean.logdebug("Inside doRPNevaluation tokenNum:::"+tokenNum);
 			}catch(NumberFormatException e){}
 			if(tokenNum != null){
 				stack.push(Double.parseDouble(token+""));
@@ -63,6 +64,8 @@ public class RPNEvaluator implements  ICalculationService{
 				throw new WrongExpressionException ("Invalid Expression");
 				
 			}
+			
+			LoggerBean.logdebug("Inside doRPNevaluation stack:::"+stack);
 			
 		}
 		

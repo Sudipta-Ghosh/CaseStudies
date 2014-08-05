@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.solutioniq.calculator.unittest.RPNEvaluationUnitTest">
+      <class name="com.solutioniq.calculator.unittest.testng.RPNEvaluationUnitTest">
         <methods>
           <include name="testEvaluateRPNPositive"/>
+          <include name="testEvaluateRPNWrongInputs"/>
+          <include name="testEvaluateRPNNegative"/>
         </methods>
-      </class> <!-- com.solutioniq.calculator.unittest.RPNEvaluationUnitTest -->
+      </class> <!-- com.solutioniq.calculator.unittest.testng.RPNEvaluationUnitTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

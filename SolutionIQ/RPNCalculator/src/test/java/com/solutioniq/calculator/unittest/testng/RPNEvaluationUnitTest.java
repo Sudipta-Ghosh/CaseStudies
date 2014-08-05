@@ -23,11 +23,18 @@ public class RPNEvaluationUnitTest {
       @Test(groups = { "RPNEvaluationTest" })
 	   public void testEvaluateRPNPositive() throws Exception {
 		    LoggerBean.logdebug("inside testAddtionwithCorrectValue");
-		    String message = "1 2 3 + -";
+		    String message1 = "1 2 3 + -";
+		    String message2 = "6 2 * 3 /";
+		    String message3 = "2 3 ^ 4 5 + +";
+		    String message4 = "50 % 2 *";
+		    String message5 = "3 ! 4 5 * +";
+		    String message6 = "12 3 / !";
+		    String message = "5 1 2 + 4 * + 3 -";
+		    
 		    
 		    String result= objBusinessDelegate.doProcessing(message);
 			LoggerBean.logdebug("result==="+result);
-	        assert result.equals("-4") : "Expected result::" + result;
+	        assert result.equals("14") : "Expected result::" + result;
 
 	   }
       
